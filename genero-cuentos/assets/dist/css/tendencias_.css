@@ -1,0 +1,35 @@
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+.footer-credits {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-credits a {
+  text-decoration: none;
+  color: rgba(15, 175, 245, 0.7);
+}
+
+.slider a {
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.6);
+}
+
+
+.listado li {
+  font-weight: bold;
+  color: #0B5ED7;
+}
+
+.logos img {
+  margin: 1em;
+}
