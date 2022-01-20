@@ -1,5 +1,5 @@
 
-function pruebaDivAPdf(fuente) {
+function DivAPdf(fuente, titulo) {
     var pdf = new jsPDF('p', 'pt', 'letter');
     source = $(fuente)[0];
 
@@ -24,7 +24,7 @@ function pruebaDivAPdf(fuente) {
     },
 
         function (dispose) {
-            pdf.save('Prueba.pdf');
+            pdf.save(titulo + '.pdf');
         }, margins
     );
 }
