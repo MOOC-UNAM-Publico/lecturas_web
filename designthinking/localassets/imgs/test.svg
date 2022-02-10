@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="512.000000pt"
+   height="512.000000pt"
+   viewBox="0 0 512.000000 512.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg14"
+   sodipodi:docname="test.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="760"
+     inkscape:window-height="480"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="0.34570313"
+     inkscape:cx="341.33333"
+     inkscape:cy="341.33333"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g12" />
+  <g
+     transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g12">
+    <path
+       d="M1360 4820 l0 -300 600 0 600 0 0 300 0 300 -600 0 -600 0 0 -300z"
+       id="path2"
+       style="fill:#ffffff" />
+    <path
+       d="M160 2410 l0 -2410 1800 0 1800 0 0 2410 0 2410 -450 0 -450 0 0 -300 0 -300 -900 0 -900 0 0 300 0 300 -450 0 -450 0 0 -2410z m900 1040 l0 -150 -150 0 -150 0 0 150 0 150 150 0 150 0 0 -150z m2100 0 l0 -150 -900 0 -900 0 0 150 0 150 900 0 900 0 0 -150z m-2100 -600 l0 -150 -150 0 -150 0 0 150 0 150 150 0 150 0 0 -150z m2100 0 l0 -150 -900 0 -900 0 0 150 0 150 900 0 900 0 0 -150z m-2100 -600 l0 -150 -150 0 -150 0 0 150 0 150 150 0 150 0 0 -150z m2100 0 l0 -150 -900 0 -900 0 0 150 0 150 900 0 900 0 0 -150z m-2100 -600 l0 -150 -150 0 -150 0 0 150 0 150 150 0 150 0 0 -150z m2100 0 l0 -150 -900 0 -900 0 0 150 0 150 900 0 900 0 0 -150z m-2100 -600 l0 -150 -150 0 -150 0 0 150 0 150 150 0 150 0 0 -150z m2100 0 l0 -150 -900 0 -900 0 0 150 0 150 900 0 900 0 0 -150z"
+       id="path4"
+       style="fill:#ffffff" />
+    <path
+       d="M4405 4486 c-84 -21 -147 -57 -211 -121 -65 -65 -105 -136 -123 -223 -6 -31 -11 -156 -11 -297 l0 -245 450 0 450 0 0 245 c0 144 -5 266 -11 297 -19 86 -59 158 -124 224 -112 113 -269 158 -420 120z"
+       id="path6"
+       style="fill:#ffffff" />
+    <path
+       d="M4060 2550 l0 -750 450 0 450 0 0 750 0 750 -450 0 -450 0 0 -750z"
+       id="path8"
+       style="fill:#ffffff" />
+    <path
+       d="M4060 1405 l0 -95 222 -445 c123 -245 225 -445 228 -445 3 0 105 200 228 445 l222 445 0 95 0 95 -450 0 -450 0 0 -95z"
+       id="path10"
+       style="fill:#ffffff" />
+  </g>
+</svg>

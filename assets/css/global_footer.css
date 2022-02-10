@@ -22,3 +22,8 @@
     margin: 2em !important;
   }
   
+.licencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

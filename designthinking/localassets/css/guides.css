@@ -195,3 +195,7 @@ ul.timeline:before {
           right: auto;
       }
 }
+
+.ejemplos a {
+  text-decoration: none;
+}
