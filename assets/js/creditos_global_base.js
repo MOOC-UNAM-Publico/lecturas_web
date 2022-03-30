@@ -2,8 +2,6 @@ class BaseCreditos extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
     
-        <h1>Introducción a las Humanidades Digitales</h1>
-    
     <h2>Directorio</h2>
     <h2>Universidad Nacional Autónoma de México</h2>
     
