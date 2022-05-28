@@ -1,0 +1,229 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyant Tools - detalle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <lin rel="stylesheet" href="../../assets/css/global.css" />
+    <link rel="stylesheet" href="../../assets/css/global_footer.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"
+        integrity="sha512-OFs3W4DIZ5ZkrDhBFtsCP6JXtMEDGmhl0QPlmWYBJay40TT1n3gt2Xuw8Pf/iezgW9CdabjkNChRqozl/YADmg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="../../assets/js/footer_template.js"></script>
+    <style>
+        #map {
+            overflow: hidden;
+            padding-bottom: 50%;
+            position: relative;
+            height: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <br>
+            <h1>Voyant Tools en detalle</h1>
+            <br>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-12 align-middle">
+                <p>
+                    En esta página, puedes interactuar con cada uno de los componentes de Voyant Tools. Puedes consultar
+                    la versión
+                    completa de esta visualización de 100 novelas hispanoamericanas del siglo XIX, obtenidas del
+                    repositorio de Ulrike Henny-Krahmer [(2021). cligs/conha19, <a
+                        href="https://doi.org/10.5281/zenodo.4766987" target="_blank">doi:10.5281/zenodo.4766987</a>] en
+                    <a href="https://voyant-tools.org/?corpus=451e87665270278b3512bc72bbe3472c&panels=cirrus,reader,trends,summary,contexts"
+                        target="_blank">Voyant Tools</a>.
+                </p>
+                <p class="text-warning">Dependiendo de la velocidad de tu conexión a Internet y del dispositivo que
+                    estés usando, el sitio puede tardar un poco en cargar.</p>
+                <p class="text-info">Pasa el cursor por cada uno de los widgets de Voyant Tools para experimentar su
+                    comportamiento. Asimismo, puedes conocer un poco más sobre cada herramienta al pasar el cursor sobre
+                    el ícono <i class="fa-solid fa-question font-weight-bold"></i>. También podrás cambiar las opciones
+                    de la
+                    visualización (por ejemplo, añadir más palabras excluidas) haciendo clic en el ícono <i
+                        class="fa-solid fa-toggle-on"></i>.
+                    Incluso puedes cambiar de herramienta,
+                    sin necesidad de salir de esta página, reemplazando la visualización por otra al seleccionar el
+                    ícono <i class="fa-brands fa-windows"></i></p>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 p-4 pt-10 pb-10">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 637px; height: 493px;'
+                    src='https://voyant-tools.org/tool/Cirrus/?stopList=keywords-002c5cc60781f41942e16c11da9e1c48&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Cirrus</h2>
+                <p>Esta corresponde a una de las visualizaciones más comunes en el análisis de corpus. Básicamente se construye una "nube de palabras" en las que la variación de tamaño de cada palabra depende de la frecuencia de
+                    aparición en la totalidad del corpus. De manera predeterminada, Voyant Tools presenta 55 términos, pero esta cantidad puede disminuirse o aumentarse (25, 500) usando el botón "Término". <br \>
+                    También es posible visualizar la nube de palabras de uno de los elementos del corpus si lo seleccionamos desde la pestaña "Escala".
+                </p>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Enlaces</h2>
+                <p>En esta visualización se grafican las <a href="https://link.springer.com/book/10.1007/978-3-319-92582-0" target="_blank">colocaciones léxicas</a> en un corpus, es decir, palabras claves y términos que "ocurren" en proximidad a cada otra palabra.<br \>
+                    La visualización se realiza en forma de grafo dirigido (<a href="https://link.springer.com/chapter/10.1007/978-3-319-92582-0_4" target="_blank">Brezina, 2018</a>), lo que permite distinguir pesos entre palabras más fecuentemente asociadas entre sus nodos.<br \>
+                    La cantidad de nodos puede ser modificada desde el botón "Contexto" y asimismo asignar más palabras claves desde la pestaña en la base del widget.
+                </p>
+            </div>
+            <div class="col-md-6 p-4 pt-10 pb-10">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 637px; height: 492px;'
+                    src='https://voyant-tools.org/tool/CollocatesGraph/?stopList=keywords-002c5cc60781f41942e16c11da9e1c48&query=hab%C3%ADa&query=dijo&query=usted&mode=corpus&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="row">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 958px; height: 315px;'
+                    src='https://voyant-tools.org/tool/Contexts/?query=hab%C3%ADa&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Contextos</h2>
+                <p>Esta tabla presenta el resultado del análisis de Key Word in Context (KWIC) o concordancias, un método bastante común que permite visualizar el contexto de las palabras frecuentes para con ello conocer un
+                    poco más de su semántica.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row d-flex align-items-center">
+
+            <div class="col-md-6 p-4 pt-10 pb-10">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 636px; height: 491px;'
+                    src='https://voyant-tools.org/tool/Reader/?stopList=keywords-443e0da81d826fea87bff1c0b84ec411&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Lector</h2>
+                <p>Al centro de la herramienta, tenemos el recuadro Lector, en él podemos ver el corpus completo y leer
+                    los contenidos. En la parte inferior de este recuadro podemos ver pequeños cuadros de colores, éstos
+                    corresponden a los documentos que forman el corpus, asignando un recuadro de color a cada documento.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Términos <i>Berry</i></h2>
+                <p>En este recuadro también tenemos la opción de la visualización Berry, esta visualización también es
+                    dinámica; los términos y sus relaciones se colorean en cuanto se les pasa el cursor por encima;
+                    además del color, el paso del cursor sobre cada término muestra información estadística (cuántas
+                    veces aparece y en cuantos de los documentos del corpus).
+                </p>
+            </div>
+            <div class="col-md-6 p-4 pt-10 pb-10">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 636px; height: 491px;'
+                    src='https://voyant-tools.org/tool/TermsBerry/?stopList=keywords-443e0da81d826fea87bff1c0b84ec411&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-center">
+
+            <div class="col-md-6 p-4 pt-10 pb-10">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 637px; height: 491px;'
+                    src='https://voyant-tools.org/tool/Trends/?stopList=keywords-443e0da81d826fea87bff1c0b84ec411&query=a&query=no&query=le&query=me&query=m%C3%A1s&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+
+            <div class="col-md-6 p-4 pt-10 pb-10 ">
+                <h2>Tendencias</h2>
+                <p>Muestra en modo de gráfica de puntos las apariciones de los términos en cada uno de los textos del
+                    corpus (X: se muestran cronológicamente) y las frecuencias de aparición dentro de dichos documentos
+                    (Y: frecuencias relativas). Con esta visualización podemos ver la evolución estilística en el caso
+                    de obras literarias, por ejemplo; o la evolución, involución o consistencia de los términos a lo
+                    largo del tiempo y la aparición en los documentos que conforman nuestro corpus.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Sumario</h2>
+                <p>Presenta información numérica, el total de documentos del corpus, el total de palabras, extensiones
+                    de
+                    los documentos -del más largo al más corto- y de cuántas palabras está compuesto, etc. A diferencia
+                    de Berry, Cirrus o Enlaces, el sumario es una visualización que requiere poca contextualización,
+                    pues
+                    su carácter alfanumérico permite comprender el contenido a simple vista.
+                </p>
+            </div>
+            <div class="col-md-6 p-4 pt-10 pb-10">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 957px; height: 315px;'
+                    src='https://voyant-tools.org/tool/Summary/?corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+        </div>
+
+</body>
+
+</html>
