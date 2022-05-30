@@ -45,7 +45,7 @@
             <h1>Voyant Tools en detalle</h1>
             <br>
         </div>
-        <div class="row d-flex align-items-center">
+        <div class="row row-cols-2 d-flex align-items-center">
             <div class="col-md-12 align-middle">
                 <p>
                     En esta página, puedes interactuar con cada uno de los componentes de Voyant Tools. Puedes consultar
@@ -69,7 +69,20 @@
                     ícono <i class="fa-brands fa-windows"></i></p>
             </div>
         </div>
-        <div class="row d-flex align-items-center">
+        <div class="row row-cols-2 d-flex align-items-center">
+
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Cirrus</h2>
+                <p>Esta corresponde a una de las visualizaciones más comunes en el análisis de corpus. Básicamente se
+                    construye una "nube de palabras" en las que la variación de tamaño de cada palabra depende de la
+                    frecuencia de
+                    aparición en la totalidad del corpus. De manera predeterminada, Voyant Tools presenta 55 términos,
+                    pero esta cantidad puede disminuirse o aumentarse (25, 500) usando el botón "Término". <br \>
+                    También es posible visualizar la nube de palabras de uno de los elementos del corpus si lo
+                    seleccionamos desde la pestaña "Escala".
+                </p>
+            </div>
+
             <div class="col-md-6 p-4 pt-10 pb-10">
                 <!--	Exported from Voyant Tools (voyant-tools.org).
 The iframe src attribute below uses a relative protocol to better function with both
@@ -77,24 +90,24 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-                <iframe style='width: 637px; height: 493px;'
+                <iframe style='width: 100%; height: 493px;'
                     src='https://voyant-tools.org/tool/Cirrus/?stopList=keywords-002c5cc60781f41942e16c11da9e1c48&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
-            </div>
-            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
-                <h2>Cirrus</h2>
-                <p>Esta corresponde a una de las visualizaciones más comunes en el análisis de corpus. Básicamente se construye una "nube de palabras" en las que la variación de tamaño de cada palabra depende de la frecuencia de
-                    aparición en la totalidad del corpus. De manera predeterminada, Voyant Tools presenta 55 términos, pero esta cantidad puede disminuirse o aumentarse (25, 500) usando el botón "Término". <br \>
-                    También es posible visualizar la nube de palabras de uno de los elementos del corpus si lo seleccionamos desde la pestaña "Escala".
-                </p>
             </div>
         </div>
 
         <div class="row d-flex align-items-center">
             <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
                 <h2>Enlaces</h2>
-                <p>En esta visualización se grafican las <a href="https://link.springer.com/book/10.1007/978-3-319-92582-0" target="_blank">colocaciones léxicas</a> en un corpus, es decir, palabras claves y términos que "ocurren" en proximidad a cada otra palabra.<br \>
-                    La visualización se realiza en forma de grafo dirigido (<a href="https://link.springer.com/chapter/10.1007/978-3-319-92582-0_4" target="_blank">Brezina, 2018</a>), lo que permite distinguir pesos entre palabras más fecuentemente asociadas entre sus nodos.<br \>
-                    La cantidad de nodos puede ser modificada desde el botón "Contexto" y asimismo asignar más palabras claves desde la pestaña en la base del widget.
+                <p>En esta visualización se grafican las <a
+                        href="https://link.springer.com/book/10.1007/978-3-319-92582-0" target="_blank">colocaciones
+                        léxicas</a> en un corpus, es decir, palabras claves y términos que "ocurren" en proximidad a
+                    cada otra palabra.<br \>
+                    La visualización se realiza en forma de grafo dirigido (<a
+                        href="https://link.springer.com/chapter/10.1007/978-3-319-92582-0_4" target="_blank">Brezina,
+                        2018</a>), lo que permite distinguir pesos entre palabras más fecuentemente asociadas entre sus
+                    nodos.<br \>
+                    La cantidad de nodos puede ser modificada desde el botón "Contexto" y asimismo asignar más palabras
+                    claves desde la pestaña en la base del widget.
                 </p>
             </div>
             <div class="col-md-6 p-4 pt-10 pb-10">
@@ -104,7 +117,7 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-                <iframe style='width: 637px; height: 492px;'
+                <iframe style='width: 100%; height: 492px;'
                     src='https://voyant-tools.org/tool/CollocatesGraph/?stopList=keywords-002c5cc60781f41942e16c11da9e1c48&query=hab%C3%ADa&query=dijo&query=usted&mode=corpus&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
             </div>
         </div>
@@ -118,19 +131,73 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-                <iframe style='width: 958px; height: 315px;'
+                <iframe style='width: 100%; height: 315px;'
                     src='https://voyant-tools.org/tool/Contexts/?query=hab%C3%ADa&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
             </div>
             <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
                 <h2>Contextos</h2>
-                <p>Esta tabla presenta el resultado del análisis de Key Word in Context (KWIC) o concordancias, un método bastante común que permite visualizar el contexto de las palabras frecuentes para con ello conocer un
-                    poco más de su semántica.
+                <p>Esta tabla presenta el resultado del análisis de Key Word in Context (KWIC) o concordancias, un
+                    método bastante común que permite visualizar el contexto de las palabras frecuentes para con ello
+                    conocer un
+                    poco más de su semántica. <br \> La visualización se realiza en forma de tabla, lo que permite
+                    distinguir pesos entre palabras más fecuentes asociadas entre sus nodos.<br \>
+                    La cantidad de palabras a mostrar se puede modificar desde los botones "contexto" y expandir.
+                    También es posible reducir el análisis a los términos de un documento desde la pestaña "Escala". <br
+                        \>
+                    La pestaña vacía en la esquina inferior izquierda permite centrar la tabla en una palabra
+                    específica. <br \>
+                    Vale resaltar que esta es una herramienta de lectura, no de análisis. Para obtener un análisis más
+                    preciso, se puede usar la herramienta <a href="https://voyant-tools.org/docs/#!/guide/correlations"
+                        target="_blank">correlaciones</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row">
+                <!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+                <iframe style='width: 100%; height: 282px;'
+                    src='https://voyant-tools.org/tool/Correlations/?query=hab%C3%ADa&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
+            </div>
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Correlaciones</h2>
+                <p>Esta tabla permite ver una análisis más detallado de la correlación entre una palabra con su par. En
+                    esta visualización, Voyant Tools muestra la palabra central como término 2,
+                    ordenando en la columna "Term 1" a los términos con mayor <a
+                        href="https://es.wikipedia.org/wiki/Coeficiente_de_correlaci%C3%B3n_de_Pearson"
+                        target="_blank">coeficiente de correlación</a> en orden descendente. Una correlación que
+                    se aproxime a 1 indica una relación directa entre los términos. Una correlación que se aproxime a 0
+                    indica que los términos no están relacionados.
+                    <br \>
+                    Voyan Tools además incluye un valor de "significancia", el cual calcula la confianza de la
+                    correlación. Un valor menor que 0.05 significa que la correlación es significativa.
                 </p>
             </div>
         </div>
 
 
+
         <div class="row d-flex align-items-center">
+
+            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                <h2>Lector</h2>
+                <p>El recuadro lector permite, como sospecharás, leer cada uno de los documentos del corpus con un
+                    formato mínimo (solamente saltos de línea). <br \>
+                    Si pasas el cursor sobre una palabra se mostrará la frecuencia de aparición <span
+                        class="text-info">en el documento</span>. Si haces clic en ella, se mostrará en las tendencias,
+                    los contextos y otras ventanas.
+                </p>
+                <p>
+                    La vista de prospectos (celda inferior con barras de colores) son una representación simple de la
+                    cantidad de documentos en el corpus en el que el largo y ancho de cada barra corresponde a la
+                    extensión del documento en relación con el resto del corpus.
+                </p>
+            </div>
 
             <div class="col-md-6 p-4 pt-10 pb-10">
                 <!--	Exported from Voyant Tools (voyant-tools.org).
@@ -139,16 +206,8 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-                <iframe style='width: 636px; height: 491px;'
+                <iframe style='width: 100%; height: 491px;'
                     src='https://voyant-tools.org/tool/Reader/?stopList=keywords-443e0da81d826fea87bff1c0b84ec411&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
-            </div>
-
-            <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
-                <h2>Lector</h2>
-                <p>Al centro de la herramienta, tenemos el recuadro Lector, en él podemos ver el corpus completo y leer
-                    los contenidos. En la parte inferior de este recuadro podemos ver pequeños cuadros de colores, éstos
-                    corresponden a los documentos que forman el corpus, asignando un recuadro de color a cada documento.
-                </p>
             </div>
 
         </div>
@@ -157,10 +216,17 @@ Feel free to change the height and width values or other styling below: -->
         <div class="row d-flex align-items-center">
             <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
                 <h2>Términos <i>Berry</i></h2>
-                <p>En este recuadro también tenemos la opción de la visualización Berry, esta visualización también es
-                    dinámica; los términos y sus relaciones se colorean en cuanto se les pasa el cursor por encima;
-                    además del color, el paso del cursor sobre cada término muestra información estadística (cuántas
-                    veces aparece y en cuantos de los documentos del corpus).
+                <p>Esta visualización tiene como objetivo combinar la visualización de términos frecuentes con las
+                    ocurrencias de otras palabras. Es una visualización cercana al cirrus, pero
+                    con la ventaja de incluir colocaciones e información relacionada con el corpus.<br \>
+                    La manera de interpretar esta visualización es: entre más al centro y mayor sea el tamaño de la
+                    burbuja, indica que esta palabra aparece más frecuentemente en el corpus. Además, entre más oscura
+                    sea
+                    la burbuja, significa que la palabra aparece en más documentos del corpus.
+                </p>
+                <p>
+                    Al pasar el cursor sobre cada burbuja, se convierte en una palabra clave y otras adquirirán color
+                    para indicar la colocación de cada término (más rojo es igual a una mayor correlación).
                 </p>
             </div>
             <div class="col-md-6 p-4 pt-10 pb-10">
@@ -170,13 +236,24 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-                <iframe style='width: 636px; height: 491px;'
+                <iframe style='width: 100%; height: 491px;'
                     src='https://voyant-tools.org/tool/TermsBerry/?stopList=keywords-443e0da81d826fea87bff1c0b84ec411&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
             </div>
         </div>
 
         <div class="row d-flex align-items-center">
 
+
+
+            <div class="col-md-6 p-4 pt-10 pb-10 ">
+                <h2>Tendencias</h2>
+                <p>Esta visualización muestra la frecuencia de aparición de los términos a lo largo de un corpus. <br \>
+                    Si los documentos del corpus se ordenan cronológicamente (por sus títulos) se pueden analizar
+                    tendencias temporales de una palabra frecuente. <br \>
+                    Con el menú "Display" es posible variar el tipo de gráfico que se muestra.
+                </p>
+            </div>
+
             <div class="col-md-6 p-4 pt-10 pb-10">
                 <!--	Exported from Voyant Tools (voyant-tools.org).
 The iframe src attribute below uses a relative protocol to better function with both
@@ -184,18 +261,8 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-                <iframe style='width: 637px; height: 491px;'
+                <iframe style='width: 100%; height: 491px;'
                     src='https://voyant-tools.org/tool/Trends/?stopList=keywords-443e0da81d826fea87bff1c0b84ec411&query=a&query=no&query=le&query=me&query=m%C3%A1s&corpus=451e87665270278b3512bc72bbe3472c'></iframe>
-            </div>
-
-            <div class="col-md-6 p-4 pt-10 pb-10 ">
-                <h2>Tendencias</h2>
-                <p>Muestra en modo de gráfica de puntos las apariciones de los términos en cada uno de los textos del
-                    corpus (X: se muestran cronológicamente) y las frecuencias de aparición dentro de dichos documentos
-                    (Y: frecuencias relativas). Con esta visualización podemos ver la evolución estilística en el caso
-                    de obras literarias, por ejemplo; o la evolución, involución o consistencia de los términos a lo
-                    largo del tiempo y la aparición en los documentos que conforman nuestro corpus.
-                </p>
             </div>
 
         </div>
@@ -204,12 +271,12 @@ Feel free to change the height and width values or other styling below: -->
         <div class="row d-flex align-items-center">
             <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
                 <h2>Sumario</h2>
-                <p>Presenta información numérica, el total de documentos del corpus, el total de palabras, extensiones
-                    de
-                    los documentos -del más largo al más corto- y de cuántas palabras está compuesto, etc. A diferencia
-                    de Berry, Cirrus o Enlaces, el sumario es una visualización que requiere poca contextualización,
-                    pues
-                    su carácter alfanumérico permite comprender el contenido a simple vista.
+                <p>Presenta una perspectiva general del corpus, incluyendo cantidad de palabras, cantidad de palabras
+                    únicas, documentos más extensos y más cortos, densidad de vocabulario, promedio de palabras por
+                    oración,
+                    palabras frecuentes, entre otros.<br \>
+                    Suele ser el primer acercamiento a un corpus y brinda información descriptiva que puede ser de
+                    utilidad para limpiar o depurar un corpus y emprender nuevos análisis.
                 </p>
             </div>
             <div class="col-md-6 p-4 pt-10 pb-10">
@@ -219,11 +286,40 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-                <iframe style='width: 957px; height: 315px;'
+                <iframe style='width: 100%; height: 315px;'
                     src='https://voyant-tools.org/tool/Summary/?corpus=451e87665270278b3512bc72bbe3472c'></iframe>
             </div>
         </div>
 
+        <div class="row d-flex align-items-center">
+            <p>
+                Las anteriores son las herramientas más frecuentes que pueden utilizarse con Voyant Tools, pero no cubre
+                la totalidad de las aplicaciones que incluye este programa. <br \>
+                Un listado completo y la descripción de cada herramienta se puede consultar en la <a
+                    href="https://voyant-tools.org/docs/#!/guide/tools" target="_blank">guía de Voyant Tools</a>. <br \>
+                Es recomendable utilizar esa guía en el momento de emprender un análisis más detenido de un corpus, ya
+                que permite entender las técnicas lingüísticas usadas en cada visualización
+                y las potencialidades de su análisis. Asimismo, es relevante entender que cada visualización responde a
+                un algoritmo para el procesamiento de los datos y una serie de procesos estadísticos
+                para el cálculo de frecuencias, correlaciones, colocaciones y demás análisis de datos. </p>
+        </div>
+
+
+        <footer>
+
+            <!-- licencia CC-By 4.0 -->
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 p-4 pt-10 pb-10 align-middle">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img
+                            alt="Licencia de Creative Commons" style="border-width:0"
+                            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a><br />Esta obra está bajo
+                    una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">licencia de Creative
+                        Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
+                </div>
+            </div>
+
+
+        </footer>
 </body>
 
 </html>
