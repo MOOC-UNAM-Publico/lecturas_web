@@ -17,7 +17,7 @@ class BaseCreditos extends HTMLElement {
     <p class="lead fw-bold">Dr. Luis Álvarez-Icaza Longoria</p>
     <p class="lead">Secretario administrativo</p>
     
-    <p class="lead fw-bold">Dr. Alberto Ken Oyama Nakagawa</p>
+    <p class="lead fw-bold">Dra. Patricia Dolores Dávila Aranda</p>
     <p class="lead">Secretario de desarrollo institucional</p>
     
     <p class="lead fw-bold">Lic. Raúl Arcenio Aguilar Tamayo</p>
@@ -42,7 +42,7 @@ class BaseCreditos extends HTMLElement {
     <p class="lead fw-bold">Dra. Guadalupe Vadillo Bueno</p>
     <p class="lead">Dirección de B@UNAM y MOOC</p>
     
-    <p class="lead fw-bold">Dr. Enrique Ruiz-Velasco Sánchez</p>
+    <p class="lead fw-bold">Dra. Myrna Hernández Gutiérrez</p>
     <p class="lead">Dirección de proyectos de transformación digital para la educación</p>
     
     <p class="lead fw-bold">Mtro. Ricardo Arroyo Mendoza</p>
